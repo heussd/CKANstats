@@ -69,6 +69,11 @@ with open(repository_url + '.csv', mode='wb') as csvfile:
 		search_result = json.loads(response.read())
 
 		assert search_result['success'] is True
+
+		# Filter out non-existent datasets
+		if search_result['result']['count'] is 0:
+			continue
+
 		assert search_result['result']['count'] is 1
 
 		for inner_result in search_result['result']['results']:
