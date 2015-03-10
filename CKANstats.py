@@ -24,9 +24,9 @@ package_search_url = 'http://' + repository_url + '/api/3/action/package_search'
 
 # Removes non-ASCII / Delimiter characters
 def cleanFieldValue(fieldValue):
-	fieldValue = str(fieldValue)
-	fieldValue = fieldValue.encode("ascii", 'ignore')
-	fieldValue = fieldValue.replace(delimiter, "")
+	if not (isinstance(fieldValue, bool) or isinstance(fieldValue, int)):
+		fieldValue = fieldValue.encode("ascii", 'ignore')
+		fieldValue = fieldValue.replace(delimiter, "")
 	return fieldValue
 
 
