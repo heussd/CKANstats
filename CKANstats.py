@@ -58,7 +58,7 @@ with open(repository_url + '.csv', mode='wb') as csvfile:
 	# resource.revision_timestamp
 	# resource.format
 	# resource.url
-	csvwriter.writerow(['dataset.id','dataset.name','dataset.license_title','dataset.license_id','dataset.isopen','dataset.tracking_summary.total','dataset.tracking_summary.recent','resource.id','resource.name','resource.created','resource.revision_timestamp','resource.format','resource.url'])
+	csvwriter.writerow(['dataset.id','dataset.name','dataset.license_title','dataset.license_id','dataset.isopen','dataset.tracking_summary.total','dataset.tracking_summary.recent','resource.id','resource.name','resource.created','resource.revision_timestamp','resource.format','resource.url','resource_tracking_summary_total','resource_tracking_summary_recent'])
 
 	for package_name in package_list['result']:
 		data_string = urllib.quote(json.dumps({'q': ('name:' + package_name)}))
@@ -91,7 +91,10 @@ with open(repository_url + '.csv', mode='wb') as csvfile:
 				resource_format = cleanFieldValue(resource['format'] or "n/a")
 				resource_url = cleanFieldValue(resource['url'] or "n/a")
 
+				resource_tracking_summary_total = cleanFieldValue(resource['tracking_summary']['total'] or "0")
+				resource_tracking_summary_recent = cleanFieldValue(resource['tracking_summary']['recent'] or "0")
+
 
 				# Python 2's CSVWriter does not seem to support UTF-8 :/
 				# https://github.com/jdunck/python-unicodecsv
-				csvwriter.writerow([dataset_id,dataset_name,dataset_license_title,dataset_license_id,dataset_is_open,dataset_tracking_summary_total,dataset_tracking_summary_recent,resource_id,resource_name,resource_created,resource_revision_timestamp,resource_format,resource_url])
+				csvwriter.writerow([dataset_id,dataset_name,dataset_license_title,dataset_license_id,dataset_is_open,dataset_tracking_summary_total,dataset_tracking_summary_recent,resource_id,resource_name,resource_created,resource_revision_timestamp,resource_format,resource_url,resource_tracking_summary_total,resource_tracking_summary_recent])
