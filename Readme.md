@@ -34,3 +34,63 @@
 	group by resource_format order by count desc
 	
 ![](firstimpressions_resource_format_counts.png)
+
+### There are at least 29 variants for the format "Excel"
+
+	select trim(resource_format), COUNT(resource_format) as count from datahubio
+	where resource_format like '%xls%' or resource_format like '%excel%' or resource_format like '%openxml%.spreadsheet%'
+	group by resource_format order by count desc
+
+
+resource_format|count
+-----|-----
+application/vnd.ms-excel|298
+xlsx|196
+zip:xls|54
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet|50
+data file in excel|49
+microsoft excel|41
+application/zip+application/vnd.ms-excel|10
+excel|10
+application/zip+vnd.ms-excel|6
+format-xls|6
+xls (zip)|5
+application/vnd.ms-excel.sheet.binary.macroenabled.12|4
+ms excel csv|2
+application/x-excel|2
+csv stata excel|2
+xls html pdf|2
+data file in stata and excel|1
+html xls|1
+csv xls ods pdf mm|1
+data file in excel and rdf|1
+data file in excel and stata|1
+csv and xls|1
+csv xls m.fl.|1
+html xls pdf|1
+csv xls prn dbase med flere|1
+xls csv|1
+pdf / xls|1
+xls html ascii|1
+csv xls openoffice pdf mm|1
+
+
+### The number of resources per datasets strongly varies
+	select AVG(count), STDDEV(count), variance(count) from (
+		select trim(dataset_name), COUNT(resource_id) as count from datahubio
+		group by dataset_name order by count desc
+	) as l
+
+
+avg|stddev|variance
+------|------|------
+3.2128405289150868|13.2269114412110874|174.9511862736407655
+
+
+### Majority of the datasets have exactly one resource file associated
+	select count, count(count) from (
+		select trim(dataset_name), COUNT(resource_id) as 		count from datahubio
+		group by dataset_name order by count desc
+	) as l group by count order by l.count
+		
+![](firstimpressions_resources_per_dataset.png)
