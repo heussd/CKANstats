@@ -29,6 +29,13 @@
 	
 ## First impressions
 
+### Documented format chaos, about 20% w/o definition
+	select trim(resource_format), (COUNT(resource_format)::double precision / (select COUNT(resource_format) from datahubio)::double precision * 100) as c from datahubio
+	group by resource_format order by c desc
+
+![](firstimpressions_formatspie.png)
+
+
 ### Majority of the "format" information is undefined
 	select trim(resource_format), COUNT(resource_format) as count from datahubio
 	group by resource_format order by count desc
@@ -94,3 +101,6 @@ avg|stddev|variance
 	) as l group by count order by l.count
 		
 ![](firstimpressions_resources_per_dataset.png)
+
+
+### 1/4 of the 'n/a' formats might be retrieved from the resource_url
