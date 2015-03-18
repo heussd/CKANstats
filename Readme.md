@@ -25,18 +25,16 @@
 	
 	COPY datahubio FROM 'datahubio.csv' DELIMITER ',' CSV;
 	
-### 3. Enjoy :)
+### 3. Start querying :)
 	
 ## First impressions
 
-### Documented format chaos, about 20% w/o definition
+### "format" row is not unified, about 20% w/o definition
 	select trim(resource_format), (COUNT(resource_format)::double precision / (select COUNT(resource_format) from datahubio)::double precision * 100) as c from datahubio
 	group by resource_format order by c desc
 
 ![](firstimpressions_formatspie.png)
 
-
-### Majority of the "format" information is undefined
 	select trim(resource_format), COUNT(resource_format) as count from datahubio
 	group by resource_format order by count desc
 	
@@ -103,4 +101,43 @@ avg|stddev|variance
 ![](firstimpressions_resources_per_dataset.png)
 
 
-### 1/4 of the 'n/a' formats might be retrieved from the resource_url
+### Some of the 'n/a' formats might be retrieved from the resource_url
+
+	select format, count(format) from (
+		select UPPER(substring(trim(resource_url) from '...$')) as format 		from datahubio where resource_format = 'n/a'	
+	) as i
+	group by format order by count(format) desc
+
+format|count
+----|----
+PDF|747
+RG/|295
+CES|250
+KEY|247
+TML|158
+PHP|53
+CSV|51
+ZIP|49
+HTM|47
+COM|34
+OM/|30
+SPX|30
+TA/|26
+D=0|23
+OV/|21
+JSP|19
+ATA|18
+ONE|16
+.GZ|15
+ORG|14
+ES/|13
+RQL|13
+RCH|12
+SON|12
+OAD|11
+AU/|11
+ER/|11
+=EN|10
+TXT|10
+DU/|9
+XLS|8
