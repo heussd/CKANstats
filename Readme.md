@@ -141,3 +141,16 @@ ER/|11
 TXT|10
 DU/|9
 XLS|8
+
+
+### 302 of the 'n/a'-format resources are accompanied by non-'n/a'-format resources 
+	select count(id) from (
+		select a.id
+		from 
+		(select distinct(trim(dataset_id)) as id from datahubio where resource_format = 'n/a' ) as a inner join
+		(select distinct(trim(dataset_id)) as id from datahubio where resource_format <> 'n/a') as b on a.id = b.id
+	) as i
+	
+count|
+-----|
+302|
