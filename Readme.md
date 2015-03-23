@@ -1,4 +1,4 @@
-# CKAN Stats
+# CKANstats of datahub.io
 
 ## Setup
 ### 1. Retrieve meta data from CKAN-based data repositories
@@ -178,7 +178,7 @@ Spreadsheet|%spreadsheet
 The entire mapping table is handcrafted and [available here](mptbl.csv). This table is used (left outer joined) twice:
 
 1. First, the format definition of datahub.io (``resource_format``) is translated via SQL-like-patterns: ``left outer join mptbl as a on lower(trim(resource_format)) like lower(a.expr)``
-1. Second, in the great tradition of [desperate modes](https://twitter.com/philae_mupus/status/533694420290633728), for every undefined format, try to join the mapping table an additional time based on the last characters of the resource URL (``resource_url``): ``left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)``
+1. Second, in the great tradition of [desperate modes](https://twitter.com/philae_mupus/status/533694420290633728), for every undefined format, try to join the mapping table an additional time based on the last characters of the resource URL (``resource_url``) - this eliminates about 1/4 of the n/as :) ``left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)``
 
 The final view then selects any null-valued format:
 
@@ -232,3 +232,47 @@ ZIP|24|0,09%
 Repository|23|0,09%
 Script|22|0,09%
 GTFS|6|0,02%
+
+
+### About openness
+
+	select unified_format, open, nonopen, round((open::double precision / (open::double precision + nonopen::double precision) * 100)::numeric, 2) from (
+	select t.unified_format, coalesce(t.count, 0) as open, coalesce(f.count, 0) as nonopen from 
+	(select unified_format, count(unified_format) as count from datahubio2
+	where dataset_is_open = true group by unified_format ) as t
+	left outer join 
+	(select unified_format, count(unified_format) as count from datahubio2
+	where dataset_is_open = false group by unified_format ) as f on (f.unified_format = t.unified_format)
+	) as i order by (open::double precision / (open::double precision + nonopen::double precision)) desc
+
+
+unified_format|open|non-open|% openness
+----|-----|-----|----
+MARC|58|0|100.00
+GTFS|6|0|100.00
+Beacon|58|1|98.31
+Image|1253|151|89.25
+URL|535|92|85.33
+Linked Data|1509|400|79.05
+JSON|538|213|71.64
+SPARQL|472|210|69.21
+Map|17|8|68.00
+API|42|20|67.74
+Repository|15|8|65.22
+Binary|87|50|63.50
+Linked Data / Schema|316|194|61.96
+Geo|341|221|60.68
+XML|313|208|60.08
+n/a|1794|1231|59.31
+CSV|1492|1045|58.81
+ZIP|14|10|58.33
+Archive|326|245|57.09
+SQL|16|14|53.33
+Example|541|541|50.00
+DOC|34|38|47.22
+Script|10|12|45.45
+TXT|90|109|45.23
+HTML|725|1008|41.83
+Spreadsheet|932|4265|17.93
+PDF|497|2849|14.85
+Database|38|440|7.95
