@@ -154,3 +154,81 @@ XLS|8
 count|
 -----|
 302|
+
+
+
+## Correct the mess
+
+The mission is bascially: use a mapping table that assignes the various values stated in the resource_format-column to unified format definitions. For example, the following expressions assign the data format ``Spreadsheet``:
+
+format|expr
+----|----
+Spreadsheet|%openxmlformats%spreadsheetml%
+Spreadsheet|%ods%
+Spreadsheet|spreadsheet
+Spreadsheet|%xls%
+Spreadsheet|%xls
+Spreadsheet|%xlsx%
+Spreadsheet|%xlxs
+Spreadsheet|*ods
+Spreadsheet|%excel%
+Spreadsheet|%openoffice%calc%
+Spreadsheet|%spreadsheet
+
+The entire mapping table is handcrafted and [available here](mptbl.csv). This table is used (left outer joined) twice:
+
+1. First, the format definition of datahub.io (``resource_format``) is translated via SQL-like-patterns: ``left outer join mptbl as a on lower(trim(resource_format)) like lower(a.expr)``
+1. Second, in the great tradition of [desperate modes](https://twitter.com/philae_mupus/status/533694420290633728), for every undefined format, try to join the mapping table an additional time based on the last characters of the resource URL (``resource_url``): ``left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)``
+
+The final view then selects any null-valued format:
+
+	drop view datahubio2;;
+	create view datahubio2 as
+	select dataset_id, dataset_name, dataset_license_title, dataset_license_id, 
+       dataset_is_open, dataset_tracking_summary_total, dataset_tracking_summary_recent, 
+       resource_id, resource_name, resource_created, resource_revision_timestamp, 
+       resource_format, resource_url, resource_tracking_summary_total, 
+       resource_tracking_summary_recent, trim(coalesce(b.format, a.format, 'n/a')) as unified_format from datahubio
+	left outer join mptbl as a on lower(trim(resource_format)) like lower(a.expr)
+	-- desperate mode: try to map unknown formats via possible resource_url-extensions
+	left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)
+
+
+## Insights in unified data
+### About 1/3 is structured, non-linked data data, 20% is semi structured, less then 10% is Linked Data
+
+	select unified_format, count(unified_format) as count, count(unified_format)::double precision / (select count(unified_format) from datahubio2)::double precision from datahubio2
+	group by unified_format order by count(unified_format) desc
+	
+![](formatspie.png)
+
+unified_format|count|%
+----|----|----
+Spreadsheet|5197|20,26%
+PDF|3346|13,04%
+n/a|3025|11,79%
+CSV|2537|9,89%
+Linked Data|1909|7,44%
+HTML|1733|6,76%
+Image|1404|5,47%
+Example|1082|4,22%
+JSON|751|2,93%
+SPARQL|682|2,66%
+URL|627|2,44%
+Archive|571|2,23%
+Geo|562|2,19%
+XML|521|2,03%
+Linked Data / Schema|510|1,99%
+Database|478|1,86%
+TXT|199|0,78%
+Binary|137|0,53%
+DOC|72|0,28%
+API|62|0,24%
+Beacon|59|0,23%
+MARC|58|0,23%
+SQL|30|0,12%
+Map|25|0,10%
+ZIP|24|0,09%
+Repository|23|0,09%
+Script|22|0,09%
+GTFS|6|0,02%
