@@ -276,3 +276,18 @@ HTML|725|1008|41.83
 Spreadsheet|932|4265|17.93
 PDF|497|2849|14.85
 Database|38|440|7.95
+
+
+### Created vs. Timestamp, Ages in days
+	select resource_id, round(EXTRACT('epoch' FROM created)/86400) created, round(EXTRACT('epoch' from a.updated)/86400) as updated from (
+	select datahubio2.resource_id,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_created, 'YYYY-MM-DD HH24:MI:SS.US')) as created,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_revision_timestamp, 'YYYY-MM-DD HH24:MI:SS.US')) as updated
+		from datahubio2
+	where datahubio2.resource_created <> 'n/a'
+	) as a order by created
+
+![](createdvsupdated.png)
+
