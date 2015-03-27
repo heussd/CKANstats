@@ -291,3 +291,64 @@ Database|38|440|7.95
 
 ![](createdvsupdated.png)
 
+
+### Last update after release: 10% within ~50 days, ~7% after ~150 days or more, 80% is never updated
+
+	select resource_id, (round(EXTRACT('epoch' FROM created)/86400) - round(EXTRACT('epoch' from a.updated)/86400)) diff from (
+	select datahubio2.resource_id,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_created, 'YYYY-MM-DD HH24:MI:SS.US')) as created,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_revision_timestamp, 'YYYY-MM-DD HH24:MI:SS.US')) as updated
+		from datahubio2
+	where datahubio2.resource_created <> 'n/a'
+	) as a order by (round(EXTRACT('epoch' FROM created)/86400) - round(EXTRACT('epoch' from a.updated)/86400)) desc
+	
+	
+![](daystoupdate.png)
+
+### Average Days between Created and Last Update, per format
+	select unified_format,
+		round(avg(round(EXTRACT('epoch' FROM created)/86400) - round(EXTRACT('epoch' from a.updated)/86400))::numeric, 2) average_created_updated_diff,
+		round(stddev(round(EXTRACT('epoch' FROM created)/86400) - round(EXTRACT('epoch' from a.updated)/86400))::numeric, 2) stdev_created_updated_diff
+	from (
+	select datahubio2.unified_format,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_created, 'YYYY-MM-DD HH24:MI:SS.US')) as created,
+		age(to_timestamp('2015-03-10 13:46:00.000000', 'YYYY-MM-DD HH24:MI:SS.US'),
+			to_timestamp(resource_revision_timestamp, 'YYYY-MM-DD HH24:MI:SS.US')) as updated
+		from datahubio2
+	where datahubio2.resource_created <> 'n/a'
+	) as a group by unified_format order by average_created_updated_diff desc
+
+unified\_format|average\_created\_updated\_diff|stdev\_created\_updated\_diff
+----|----|----
+Image|80.28|65.95
+Archive|61.54|130.67
+API|52.65|154.97
+SPARQL|40.34|118.57
+TXT|24.70|76.22
+Example|21.88|98.27
+Linked Data|19.66|87.13
+n/a|17.51|84.85
+XML|17.03|81.83
+ZIP|12.74|44.45
+HTML|12.71|83.19
+PDF|12.67|29.86
+Beacon|11.86|7.21
+JSON|10.32|32.25
+Map|9.90|32.61
+Binary|9.89|61.59
+Linked Data / Schema|8.21|41.73
+CSV|4.56|36.23
+Script|2.34|2.33
+Spreadsheet|2.19|26.89
+DOC|1.06|2.53
+Geo|1.05|9.75
+URL|0.85|13.61
+Database|0.28|2.59
+SQL|0.14|0.51
+GTFS|0.00|0.00
+Repository|0.00|0.00
+MARC|0.00|0.00
+
