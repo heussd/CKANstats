@@ -352,3 +352,18 @@ GTFS|0.00|0.00
 Repository|0.00|0.00
 MARC|0.00|0.00
 
+
+### Recent & total visits per format
+
+	select a.unified_format, a.count as recent, b.count as total from (
+	select unified_format, sum(resource_tracking_summary_recent) as count from datahubio2
+	where resource_tracking_summary_recent > 0
+	group by unified_format order by sum(resource_tracking_summary_recent) desc
+	) as a left outer join (
+	select unified_format, sum(resource_tracking_summary_total) as count from datahubio2
+	where resource_tracking_summary_total > 0
+	group by unified_format order by sum(resource_tracking_summary_total) desc ) as b
+	on a.unified_format = b.unified_format
+	order by total described
+	
+![](visitsperformat.png)
