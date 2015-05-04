@@ -1,0 +1,15 @@
+Number of unique subjects: 1035,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13]
+[0] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#amendmentFor,31,-,0,0,0,0,0,0,0,31,31,0,31,31,31
+[1] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#broaderCategory,13,-,-,13,0,0,0,0,6,0,13,1,0,0,13
+[2] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#categoryName,103,-,-,-,0,0,0,0,6,0,103,7,0,0,103
+[3] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#corrigendumFor,27,-,-,-,-,0,0,0,0,27,27,0,27,27,27
+[4] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#hasAmendment,31,-,-,-,-,-,2,1,0,2,2,0,2,2,2
+[5] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#hasCategory,15,-,-,-,-,-,-,1,0,15,15,0,15,15,15
+[6] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#hasCorrigendum,4,-,-,-,-,-,-,-,0,1,1,0,1,1,1
+[7] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#hasDocument,19,-,-,-,-,-,-,-,-,0,6,0,0,0,6
+[8] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#hyperlink,932,-,-,-,-,-,-,-,-,-,932,0,902,932,932
+[9] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#level,1035,-,-,-,-,-,-,-,-,-,-,7,902,932,1035
+[10] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#narrowerCategory,14,-,-,-,-,-,-,-,-,-,-,-,0,0,7
+[11] http://ec.europa.eu/eurostat/ramon/ontologies/legislation.rdf#oj_ref,902,-,-,-,-,-,-,-,-,-,-,-,-,902,902
+[12] http://purl.org/dc/terms/title,932,-,-,-,-,-,-,-,-,-,-,-,-,-,932
+[13] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,1035,-,-,-,-,-,-,-,-,-,-,-,-,-,-

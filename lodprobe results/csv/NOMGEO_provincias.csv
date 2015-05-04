@@ -1,0 +1,10 @@
+Number of unique subjects: 167,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8]
+[0] http://geo.linkeddata.es/ontology/esCapitalDe,50,-,50,0,0,50,50,50,0,0
+[1] http://geo.linkeddata.es/ontology/formaParteDe,150,-,-,50,50,100,100,100,0,0
+[2] http://geo.linkeddata.es/ontology/formadoPor,150,-,-,-,50,67,67,50,0,0
+[3] http://geo.linkeddata.es/ontology/tieneCapital,50,-,-,-,-,50,50,50,0,0
+[4] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,167,-,-,-,-,-,117,100,50,50
+[5] http://www.w3.org/2000/01/rdf-schema#label,128,-,-,-,-,-,-,100,0,0
+[6] http://www.w3.org/2003/01/geo/wgs84_pos#geometry,100,-,-,-,-,-,-,-,0,0
+[7] http://www.w3.org/2003/01/geo/wgs84_pos#lat,50,-,-,-,-,-,-,-,-,50
+[8] http://www.w3.org/2003/01/geo/wgs84_pos#long,50,-,-,-,-,-,-,-,-,-

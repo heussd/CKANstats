@@ -367,3 +367,10 @@ MARC|0.00|0.00
 	order by total described
 	
 ![](visitsperformat.png)
+
+
+## Digging deeper
+
+### Top 50 Linked Data resources
+	select distinct trim(dataset_name), trim(resource_name),trim(resource_url), resource_tracking_summary_total from datahubio2
+	where unified_format = 'Linked Data' order by resource_tracking_summary_total desc

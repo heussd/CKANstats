@@ -1,0 +1,25 @@
+Number of unique subjects: 597,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20],[21],[22],[23]
+[0] http://research.data.gov.uk/def/project/addressLine1,347,-,196,92,12,186,235,228,207,230,234,207,232,235,235,235,230,235,235,232,235,235,0,0,235
+[1] http://research.data.gov.uk/def/project/addressLine2,267,-,-,90,9,159,196,190,172,192,195,172,193,196,196,196,192,196,196,193,196,196,0,0,196
+[2] http://research.data.gov.uk/def/project/addressLine3,124,-,-,-,3,74,92,91,77,91,91,80,89,92,92,92,91,92,92,91,92,92,0,0,92
+[3] http://research.data.gov.uk/def/project/auditFrequency,12,-,-,-,-,5,12,5,10,12,11,11,12,12,12,12,12,12,12,11,12,12,0,0,12
+[4] http://research.data.gov.uk/def/project/companyRegNo,186,-,-,-,-,-,186,185,169,181,185,161,183,186,186,186,181,186,186,185,186,186,0,0,186
+[5] http://research.data.gov.uk/def/project/costCategoryType,373,-,-,-,-,-,-,242,207,230,372,338,236,373,373,263,230,373,373,232,373,373,0,0,373
+[6] http://research.data.gov.uk/def/project/country,254,-,-,-,-,-,-,-,202,223,241,213,228,242,242,242,223,242,242,226,242,242,0,0,242
+[7] http://research.data.gov.uk/def/project/county,265,-,-,-,-,-,-,-,-,204,206,180,205,207,207,207,204,207,207,204,207,207,0,0,207
+[8] http://research.data.gov.uk/def/project/location,268,-,-,-,-,-,-,-,-,-,229,202,228,230,230,230,230,230,230,227,230,230,0,0,230
+[9] http://research.data.gov.uk/def/project/organisationName,388,-,-,-,-,-,-,-,-,-,-,337,235,372,372,262,229,372,372,231,372,372,0,0,372
+[10] http://research.data.gov.uk/def/project/organisationSize,368,-,-,-,-,-,-,-,-,-,-,-,208,338,338,232,202,338,338,204,338,338,0,0,338
+[11] http://research.data.gov.uk/def/project/organisationType,261,-,-,-,-,-,-,-,-,-,-,-,-,236,236,236,228,236,236,229,236,236,0,0,236
+[12] http://research.data.gov.uk/def/project/originalName,479,-,-,-,-,-,-,-,-,-,-,-,-,-,373,263,230,373,373,232,373,373,0,0,373
+[13] http://research.data.gov.uk/def/project/participantName,479,-,-,-,-,-,-,-,-,-,-,-,-,-,-,263,230,373,373,232,373,373,0,0,373
+[14] http://research.data.gov.uk/def/project/participantType,305,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,230,263,263,232,263,263,0,0,263
+[15] http://research.data.gov.uk/def/project/postcode,492,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,230,230,227,454,230,219,219,230
+[16] http://research.data.gov.uk/def/project/project,763,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,373,232,373,373,0,0,373
+[17] http://research.data.gov.uk/def/project/region,428,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,232,373,373,0,0,373
+[18] http://research.data.gov.uk/def/project/town,275,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,232,232,0,0,232
+[19] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,597,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,373,219,219,373
+[20] http://www.w3.org/2000/01/rdf-schema#label,479,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,373
+[21] http://www.w3.org/2003/01/geo/wgs84_pos#lat,228,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,219,0
+[22] http://www.w3.org/2003/01/geo/wgs84_pos#long,228,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[23] http://www.w3.org/2004/02/skos/core#notation,740,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
