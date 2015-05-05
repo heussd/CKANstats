@@ -1,0 +1,7 @@
+Number of unique subjects: 32482,Count,[0],[1],[2],[3],[4],[5]
+[0] http://opendatacommunities.org/def/IMD#IMD-score,32482,-,32482,32482,32482,32482,32482
+[1] http://purl.org/linked-data/cube#dataSet,32482,-,-,32482,32482,32482,32482
+[2] http://purl.org/linked-data/sdmx/2009/dimension#refArea,32482,-,-,-,32482,32482,32482
+[3] http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,32482,-,-,-,-,32482,32482
+[4] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,32482,-,-,-,-,-,32482
+[5] http://www.w3.org/2000/01/rdf-schema#label,32482,-,-,-,-,-,-

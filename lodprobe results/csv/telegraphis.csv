@@ -1,0 +1,10 @@
+Number of unique subjects: 467,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8]
+[0] http://telegraphis.net/ontology/geography/geography#capitalOf,241,-,226,0,241,241,241,241,0,241
+[1] http://telegraphis.net/ontology/measurement/code#hasCode,226,-,-,0,226,226,226,226,0,226
+[2] http://telegraphis.net/ontology/measurement/code#inCodeScheme,226,-,-,-,0,0,0,226,226,0
+[3] http://www.geonames.org/ontology#featureClass,241,-,-,-,-,241,241,241,0,241
+[4] http://www.geonames.org/ontology#featureCode,241,-,-,-,-,-,241,241,0,241
+[5] http://www.geonames.org/ontology#name,241,-,-,-,-,-,-,241,0,241
+[6] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,467,-,-,-,-,-,-,-,226,241
+[7] http://www.w3.org/1999/02/22-rdf-syntax-ns#value,226,-,-,-,-,-,-,-,-,0
+[8] http://www.w3.org/2002/07/owl#sameAs,475,-,-,-,-,-,-,-,-,-
