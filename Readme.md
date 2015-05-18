@@ -204,34 +204,35 @@ The final view then selects any null-valued format:
 
 unified_format|count|%
 ----|----|----
-Spreadsheet|5197|20,26%
-PDF|3346|13,04%
-n/a|3025|11,79%
-CSV|2537|9,89%
-Linked Data|1909|7,44%
-HTML|1733|6,76%
-Image|1404|5,47%
-Example|1082|4,22%
-JSON|751|2,93%
-SPARQL|682|2,66%
-URL|627|2,44%
-Archive|571|2,23%
-Geo|562|2,19%
-XML|521|2,03%
-Linked Data / Schema|510|1,99%
-Database|478|1,86%
-TXT|199|0,78%
-Binary|137|0,53%
-DOC|72|0,28%
-API|62|0,24%
-Beacon|59|0,23%
-MARC|58|0,23%
-SQL|30|0,12%
-Map|25|0,10%
-ZIP|24|0,09%
-Repository|23|0,09%
-Script|22|0,09%
-GTFS|6|0,02%
+n/a|2983|14.78%
+Spreadsheet|2966|14.70%
+CSV|2533|12.55%
+RDF|2279|11.29%
+PDF|1643|8.14%
+Image|1371|6.79%
+Example|1079|5.35%
+HTML|985|4.88%
+SPARQL|682|3.38%
+URL|627|3.11%
+Archive|534|2.65%
+Geo|511|2.53%
+Database|493|2.44%
+XML|463|2.29%
+JSON|364|1.80%
+Binary|137|0.68%
+TXT|132|0.65%
+DOC|69|0.34%
+API|63|0.31%
+Beacon|59|0.29%
+MARC|51|0.25%
+RSS|47|0.23%
+Repository|28|0.14%
+Map|25|0.12%
+Script|20|0.10%
+Google Doc|17|0.08%
+SQL|12|0.06%
+GTFS|3|0.01%
+Sound|2|0.01%
 
 
 ### About openness
@@ -248,35 +249,34 @@ GTFS|6|0,02%
 
 unified_format|open|non-open|% openness
 ----|-----|-----|----
-MARC|58|0|100.00
-GTFS|6|0|100.00
+MARC|51|0|100.00
+GTFS|3|0|100.00
 Beacon|58|1|98.31
-Image|1253|151|89.25
+Image|1227|144|89.50
 URL|535|92|85.33
-Linked Data|1509|400|79.05
-JSON|538|213|71.64
+SQL|10|2|83.33
+RDF|1725|554|75.69
+RSS|34|13|72.34
+JSON|259|105|71.15
 SPARQL|472|210|69.21
+API|43|20|68.25
 Map|17|8|68.00
-API|42|20|67.74
-Repository|15|8|65.22
 Binary|87|50|63.50
-Linked Data / Schema|316|194|61.96
-Geo|341|221|60.68
-XML|313|208|60.08
-n/a|1794|1231|59.31
-CSV|1492|1045|58.81
-ZIP|14|10|58.33
-Archive|326|245|57.09
-SQL|16|14|53.33
-Example|541|541|50.00
-DOC|34|38|47.22
-Script|10|12|45.45
-TXT|90|109|45.23
-HTML|725|1008|41.83
-Spreadsheet|932|4265|17.93
-PDF|497|2849|14.85
-Database|38|440|7.95
-
+Geo|313|198|61.25
+XML|273|190|58.96
+n/a|1758|1225|58.93
+CSV|1490|1043|58.82
+Repository|16|12|57.14
+Archive|292|242|54.68
+Example|541|538|50.14
+DOC|34|35|49.28
+TXT|57|75|43.18
+HTML|398|587|40.41
+Script|8|12|40.00
+Google Doc|6|11|35.29
+Spreadsheet|634|2332|21.38
+PDF|224|1419|13.63
+Database|47|446|9.53
 
 ### Created vs. Timestamp, Ages in days
 	select resource_id, round(EXTRACT('epoch' FROM created)/86400) created, round(EXTRACT('epoch' from a.updated)/86400) as updated from (
@@ -323,34 +323,34 @@ Database|38|440|7.95
 
 unified\_format|average\_created\_updated\_diff|stdev\_created\_updated\_diff
 ----|----|----
-Image|80.28|65.95
-Archive|61.54|130.67
-API|52.65|154.97
-SPARQL|40.34|118.57
-TXT|24.70|76.22
-Example|21.88|98.27
-Linked Data|19.66|87.13
-n/a|17.51|84.85
-XML|17.03|81.83
-ZIP|12.74|44.45
-HTML|12.71|83.19
-PDF|12.67|29.86
-Beacon|11.86|7.21
-JSON|10.32|32.25
-Map|9.90|32.61
-Binary|9.89|61.59
-Linked Data / Schema|8.21|41.73
-CSV|4.56|36.23
-Script|2.34|2.33
-Spreadsheet|2.19|26.89
-DOC|1.06|2.53
-Geo|1.05|9.75
-URL|0.85|13.61
-Database|0.28|2.59
-SQL|0.14|0.51
-GTFS|0.00|0.00
-Repository|0.00|0.00
+Image|81.89|65.72
+Archive|56.63|123.91
+API|52.76|154.96
+SPARQL|40.38|118.51
+RSS|28.80|14.50
+TXT|28.37|82.42
+Example|21.97|98.39
+HTML|18.33|105.33
+n/a|18.29|87.06
+RDF|16.78|78.40
+XML|16.32|86.99
+PDF|13.16|31.03
+Beacon|12.00|7.07
+JSON|10.18|32.91
+Binary|9.98|61.66
+Map|9.82|32.56
+CSV|4.58|36.22
+Script|2.67|2.58
+Spreadsheet|1.97|25.03
+DOC|1.58|2.95
+Geo|1.09|9.38
+URL|0.76|13.60
+SQL|0.43|0.53
+Database|0.30|2.59
+Google Doc|0.00|
 MARC|0.00|0.00
+Repository|0.00|0.00
+GTFS|0.00|0.00
 
 
 ### Recent & total visits per format
@@ -364,7 +364,7 @@ MARC|0.00|0.00
 	where resource_tracking_summary_total > 0
 	group by unified_format order by sum(resource_tracking_summary_total) desc ) as b
 	on a.unified_format = b.unified_format
-	order by total described
+	order by total desc
 	
 ![](visitsperformat.png)
 
