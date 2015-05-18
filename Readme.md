@@ -195,7 +195,7 @@ The final view then selects any null-valued format:
 
 
 ## Insights in unified data
-### About 1/3 is structured, non-linked data data, 20% is semi structured, less then 10% is Linked Data
+### Format distribution
 
 	select unified_format, count(unified_format) as count, count(unified_format)::double precision / (select count(unified_format) from datahubio2)::double precision from datahubio2
 	group by unified_format order by count(unified_format) desc
