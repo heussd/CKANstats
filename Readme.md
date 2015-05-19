@@ -1,5 +1,5 @@
 # CKANstats
-... is a set of scripts to analyse CKAN-based data repositories. These are augmented by [LODprobe](https://github.com/heussd/lodprobe), a Java tool that does a further in-depth analysis of individual RDF-based datasets. In the following, this collection of toosl is applied to [datahub.io](http://www.datahub.io).
+... is a set of scripts to analyse CKAN-based data repositories. These are augmented by [LODprobe](https://github.com/heussd/lodprobe), a Java tool that does a further in-depth analysis of individual RDF-based datasets. In the following, this collection of tools is applied to [datahub.io](http://www.datahub.io).
 
 
 ## Setup
