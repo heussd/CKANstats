@@ -1,0 +1,21 @@
+Number of unique subjects: 86,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]
+[0] http://data.bnf.fr/ontology/bnf-onto/FRBNF,1,-,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1
+[1] http://data.bnf.fr/ontology/bnf-onto/firstYear,1,-,-,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1,0
+[2] http://data.bnf.fr/ontology/bnf-onto/subject,1,-,-,-,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1,0
+[3] http://purl.org/dc/terms/contributor,1,-,-,-,-,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1,0
+[4] http://purl.org/dc/terms/creator,1,-,-,-,-,-,1,1,1,1,1,1,0,1,1,0,0,0,0,1,0
+[5] http://purl.org/dc/terms/date,1,-,-,-,-,-,-,1,1,1,1,1,0,1,1,0,0,0,0,1,0
+[6] http://purl.org/dc/terms/description,2,-,-,-,-,-,-,-,1,1,1,1,0,1,1,0,0,0,0,1,0
+[7] http://purl.org/dc/terms/language,1,-,-,-,-,-,-,-,-,1,1,1,0,1,1,0,0,0,0,1,0
+[8] http://purl.org/dc/terms/subject,2,-,-,-,-,-,-,-,-,-,1,1,0,1,1,0,0,0,0,1,0
+[9] http://purl.org/dc/terms/title,1,-,-,-,-,-,-,-,-,-,-,1,0,1,1,0,0,0,0,1,0
+[10] http://rdvocab.info/Elements/dateOfWork,1,-,-,-,-,-,-,-,-,-,-,-,0,1,1,0,0,0,0,1,0
+[11] http://rdvocab.info/RDARelationshipsWEMI/workManifested,83,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,0,0,0
+[12] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,2,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,1,1,1,1
+[13] http://www.w3.org/2000/01/rdf-schema#label,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,1,0
+[14] http://www.w3.org/2000/01/rdf-schema#seeAlso,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,0,1
+[15] http://www.w3.org/2004/02/skos/core#editorialNote,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,0,1
+[16] http://www.w3.org/2004/02/skos/core#note,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0,1
+[17] http://www.w3.org/2004/02/skos/core#prefLabel,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,1
+[18] http://xmlns.com/foaf/0.1/depiction,54,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[19] http://xmlns.com/foaf/0.1/focus,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

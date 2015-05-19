@@ -1,0 +1,21 @@
+Number of unique subjects: 6088,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]
+[0] http://creativecommons.org/ns#attributionName,3044,-,3044,3044,0,0,0,3044,0,0,0,3044,3044,3044,3044,0,0,0,0,0,3044
+[1] http://creativecommons.org/ns#attributionURL,3044,-,-,3044,0,0,0,3044,0,0,0,3044,3044,3044,3044,0,0,0,0,0,3044
+[2] http://creativecommons.org/ns#license,3044,-,-,-,0,0,0,3044,0,0,0,3044,3044,3044,3044,0,0,0,0,0,3044
+[3] http://data.nytimes.com/elements/associated_article_count,3044,-,-,-,-,1437,1437,0,3044,3044,2825,0,0,0,0,3044,3044,199,3044,3044,0
+[4] http://data.nytimes.com/elements/first_use,1437,-,-,-,-,-,1437,0,1437,1437,1226,0,0,0,0,1437,1437,199,1437,1437,0
+[5] http://data.nytimes.com/elements/latest_use,1437,-,-,-,-,-,-,0,1437,1437,1226,0,0,0,0,1437,1437,199,1437,1437,0
+[6] http://data.nytimes.com/elements/mapping_strategy,3044,-,-,-,-,-,-,-,0,0,0,3044,3044,3044,3044,0,0,0,0,0,3044
+[7] http://data.nytimes.com/elements/number_of_variants,3044,-,-,-,-,-,-,-,-,3044,2825,0,0,0,0,3044,3044,199,3044,3044,0
+[8] http://data.nytimes.com/elements/search_api_query,3044,-,-,-,-,-,-,-,-,-,2825,0,0,0,0,3044,3044,199,3044,3044,0
+[9] http://data.nytimes.com/elements/topicPage,2825,-,-,-,-,-,-,-,-,-,-,0,0,0,0,2825,2825,199,2825,2825,0
+[10] http://purl.org/dc/elements/1.1/creator,3044,-,-,-,-,-,-,-,-,-,-,-,3044,3044,3044,0,0,0,0,0,3044
+[11] http://purl.org/dc/terms/created,3044,-,-,-,-,-,-,-,-,-,-,-,-,3044,3044,0,0,0,0,0,3044
+[12] http://purl.org/dc/terms/modified,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,3044,0,0,0,0,0,3044
+[13] http://purl.org/dc/terms/rightsHolder,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,3044
+[14] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3044,199,3044,3044,0
+[15] http://www.w3.org/2002/07/owl#sameAs,8003,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,199,3044,3044,0
+[16] http://www.w3.org/2004/02/skos/core#definition,199,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,199,199,0
+[17] http://www.w3.org/2004/02/skos/core#inScheme,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3044,0
+[18] http://www.w3.org/2004/02/skos/core#prefLabel,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[19] http://xmlns.com/foaf/0.1/primaryTopic,3044,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

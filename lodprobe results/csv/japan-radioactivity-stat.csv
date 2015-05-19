@@ -1,8 +1,0 @@
-Number of unique subjects: 413826,Count,[0],[1],[2],[3],[4],[5],[6]
-[0] http://purl.org/NET/c4dm/event.owl#place,405086,-,405086,0,0,405086,405086,0
-[1] http://purl.org/NET/c4dm/event.owl#time,405086,-,-,0,0,405086,405086,0
-[2] http://purl.org/NET/c4dm/timeline.owl#at,8740,-,-,-,8740,0,0,8740
-[3] http://purl.org/NET/c4dm/timeline.owl#duration,8740,-,-,-,-,0,0,8740
-[4] http://purl.org/NET/scovo#dataset,405086,-,-,-,-,-,405086,0
-[5] http://www.w3.org/1999/02/22-rdf-syntax-ns#value,405384,-,-,-,-,-,-,0
-[6] http://www.w3.org/2000/01/rdf-schema#label,8740,-,-,-,-,-,-,-

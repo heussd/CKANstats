@@ -1,8 +1,11 @@
-# CKANstats of datahub.io
+# CKANstats
+... is a set of scripts to analyse CKAN-based data repositories. These are augmented by [LODprobe](https://github.com/heussd/lodprobe), a Java tool that does a further in-depth analysis of individual RDF-based datasets. In the following, this collection of toosl is applied to [datahub.io](http://www.datahub.io).
+
 
 ## Setup
 ### 1. Retrieve meta data from CKAN-based data repositories
 	CKANstats.py
+You'll need to edit the source to change the data portal [CKANstats.py](CKANstats.py)
 ### 2. Load retrieved CSV into SQL (here: PostgreSQL)
 	CREATE TABLE datahubio
 	(
@@ -27,18 +30,18 @@
 	
 ### 3. Start querying :)
 	
-## First impressions
+## First impressions of datahub.io
 
 ### "format" row is not unified, about 20% w/o definition
 	select trim(resource_format), (COUNT(resource_format)::double precision / (select COUNT(resource_format) from datahubio)::double precision * 100) as c from datahubio
 	group by resource_format order by c desc
 
-![](firstimpressions_formatspie.png)
+![](datahub.io/firstimpressions_formatspie.png)
 
 	select trim(resource_format), COUNT(resource_format) as count from datahubio
 	group by resource_format order by count desc
 	
-![](firstimpressions_resource_format_counts.png)
+![](datahub.io/firstimpressions_resource_format_counts.png)
 
 ### There are at least 29 variants for the format "Excel"
 
@@ -98,7 +101,7 @@ avg|stddev|variance
 		group by dataset_name order by count desc
 	) as l group by count order by l.count
 		
-![](firstimpressions_resources_per_dataset.png)
+![](datahub.io/firstimpressions_resources_per_dataset.png)
 
 
 ### Some of the 'n/a' formats might be retrieved from the resource_url
@@ -200,7 +203,7 @@ The final view then selects any null-valued format:
 	select unified_format, count(unified_format) as count, count(unified_format)::double precision / (select count(unified_format) from datahubio2)::double precision from datahubio2
 	group by unified_format order by count(unified_format) desc
 	
-![](formatspie.png)
+![](datahub.io/formatspie.png)
 
 unified_format|count|%
 ----|----|----
@@ -289,7 +292,7 @@ Database|47|446|9.53
 	where datahubio2.resource_created <> 'n/a'
 	) as a order by created
 
-![](createdvsupdated.png)
+![](datahub.io/createdvsupdated.png)
 
 
 ### Last update after release: 10% within ~50 days, ~7% after ~150 days or more, 80% is never updated
@@ -305,7 +308,7 @@ Database|47|446|9.53
 	) as a order by (round(EXTRACT('epoch' FROM created)/86400) - round(EXTRACT('epoch' from a.updated)/86400)) desc
 	
 	
-![](daystoupdate.png)
+![](datahub.io/daystoupdate.png)
 
 ### Average Days between Created and Last Update, per format
 	select unified_format,
@@ -366,10 +369,10 @@ GTFS|0.00|0.00
 	on a.unified_format = b.unified_format
 	order by total desc
 	
-![](visitsperformat.png)
+![](datahub.io/visitsperformat.png)
 
 
-## Digging deeper
+## Per-Resource Evaluations
 
 ### Top 50 Linked Data resources
 	select distinct trim(dataset_name), trim(resource_name),trim(resource_url), resource_tracking_summary_total from datahubio2

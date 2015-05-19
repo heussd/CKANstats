@@ -1,0 +1,14 @@
+Number of unique subjects: 254,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12]
+[0] http://miuras.inf.um.es/ogolod/ontology/evidenceCode,93,-,0,93,0,93,93,93,0,93,0,0,0,0
+[1] http://miuras.inf.um.es/ogolod/ontology/synonym,2,-,-,2,0,0,2,0,0,0,0,0,0,0
+[2] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,317,-,-,-,127,112,218,112,57,97,2,1,1,1
+[3] http://www.w3.org/2000/01/rdf-schema#comment,128,-,-,-,-,3,117,3,57,3,1,0,0,1
+[4] http://www.w3.org/2000/01/rdf-schema#domain,116,-,-,-,-,-,97,112,0,97,0,1,1,0
+[5] http://www.w3.org/2000/01/rdf-schema#label,316,-,-,-,-,-,-,97,53,97,2,0,0,1
+[6] http://www.w3.org/2000/01/rdf-schema#range,145,-,-,-,-,-,-,-,0,97,0,1,1,0
+[7] http://www.w3.org/2000/01/rdf-schema#subClassOf,57,-,-,-,-,-,-,-,-,0,0,0,0,0
+[8] http://www.w3.org/2000/01/rdf-schema#subPropertyOf,97,-,-,-,-,-,-,-,-,-,0,0,0,0
+[9] http://www.w3.org/2002/07/owl#equivalentClass,2,-,-,-,-,-,-,-,-,-,-,0,0,0
+[10] http://www.w3.org/2002/07/owl#equivalentProperty,1,-,-,-,-,-,-,-,-,-,-,-,0,0
+[11] http://www.w3.org/2002/07/owl#inverseOf,1,-,-,-,-,-,-,-,-,-,-,-,-,0
+[12] http://www.w3.org/2002/07/owl#versionInfo,1,-,-,-,-,-,-,-,-,-,-,-,-,-

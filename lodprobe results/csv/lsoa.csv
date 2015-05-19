@@ -1,9 +1,0 @@
-Number of unique subjects: 34378,Count,[0],[1],[2],[3],[4],[5],[6],[7]
-[0] http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting,34378,-,34378,32482,34378,34378,34378,34378,34378
-[1] http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing,34378,-,-,32482,34378,34378,34378,34378,34378
-[2] http://statistics.data.gov.uk/def/administrative-geography/district,32482,-,-,-,32482,32482,32482,32482,32482
-[3] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,34378,-,-,-,-,34378,34378,34378,34378
-[4] http://www.w3.org/2000/01/rdf-schema#label,34378,-,-,-,-,-,34378,34378,34378
-[5] http://www.w3.org/2003/01/geo/wgs84_pos#lat,34378,-,-,-,-,-,-,34378,34378
-[6] http://www.w3.org/2003/01/geo/wgs84_pos#long,34378,-,-,-,-,-,-,-,34378
-[7] http://www.w3.org/2004/02/skos/core#notation,34378,-,-,-,-,-,-,-,-

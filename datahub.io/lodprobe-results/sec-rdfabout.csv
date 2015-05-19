@@ -1,0 +1,13 @@
+Number of unique subjects: 460446,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11]
+[0] http://purl.org/dc/elements/1.1/date,184045,-,0,184045,0,96624,0,171748,0,0,0,0,0
+[1] http://www.rdfabout.com/rdf/schema/ussec/cik,144107,-,-,0,132294,0,12589,129767,132294,0,0,0,144107
+[2] http://www.rdfabout.com/rdf/schema/ussec/corporation,184045,-,-,-,0,96624,0,171748,0,0,0,0,0
+[3] http://www.rdfabout.com/rdf/schema/ussec/hasRelation,184045,-,-,-,-,0,776,117954,132294,0,0,0,132294
+[4] http://www.rdfabout.com/rdf/schema/ussec/officerTitle,96624,-,-,-,-,-,0,95428,0,0,0,0,0
+[5] http://www.rdfabout.com/rdf/schema/ussec/tradingSymbol,12589,-,-,-,-,-,-,12589,776,0,0,0,12589
+[6] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,334325,-,-,-,-,-,-,-,117954,0,0,0,129767
+[7] http://www.w3.org/2001/vcard-rdf/3.0#ADR,132294,-,-,-,-,-,-,-,-,0,0,0,132294
+[8] http://www.w3.org/2001/vcard-rdf/3.0#Locality,132294,-,-,-,-,-,-,-,-,-,132294,132294,0
+[9] http://www.w3.org/2001/vcard-rdf/3.0#Pcode,132294,-,-,-,-,-,-,-,-,-,-,132294,0
+[10] http://www.w3.org/2001/vcard-rdf/3.0#Street,132294,-,-,-,-,-,-,-,-,-,-,-,0
+[11] http://xmlns.com/foaf/0.1/name,144179,-,-,-,-,-,-,-,-,-,-,-,-

@@ -1,0 +1,12 @@
+Number of unique subjects: 329,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10]
+[0] http://purl.org/net7/vocab/locs/v1#ammontare,159,-,159,159,159,0,145,159,159,159,159,0
+[1] http://purl.org/net7/vocab/locs/v1#committente,159,-,-,159,159,0,145,159,159,159,159,0
+[2] http://purl.org/net7/vocab/locs/v1#fornitore,214,-,-,-,159,0,145,159,159,159,159,0
+[3] http://purl.org/net7/vocab/locs/v1#note,159,-,-,-,-,0,145,159,159,159,159,0
+[4] http://purl.org/net7/vocab/locs/v1#originalName,169,-,-,-,-,-,0,0,169,0,169,25
+[5] http://purl.org/net7/vocab/locs/v1#scadenza,145,-,-,-,-,-,-,145,145,145,145,0
+[6] http://purl.org/net7/vocab/locs/v1#settore,159,-,-,-,-,-,-,-,159,159,159,0
+[7] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,328,-,-,-,-,-,-,-,-,159,328,25
+[8] http://www.w3.org/2000/01/rdf-schema#comment,159,-,-,-,-,-,-,-,-,-,159,0
+[9] http://www.w3.org/2000/01/rdf-schema#label,329,-,-,-,-,-,-,-,-,-,-,25
+[10] http://www.w3.org/2008/05/skos#exactMatch,25,-,-,-,-,-,-,-,-,-,-,-

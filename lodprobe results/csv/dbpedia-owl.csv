@@ -1,8 +1,0 @@
-Number of unique subjects: 1534,Count,[0],[1],[2],[3],[4],[5],[6]
-[0] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,1552,-,106,1027,1533,1156,257,1
-[1] http://www.w3.org/2000/01/rdf-schema#comment,106,-,-,38,106,45,52,0
-[2] http://www.w3.org/2000/01/rdf-schema#domain,1027,-,-,-,1027,943,0,0
-[3] http://www.w3.org/2000/01/rdf-schema#label,1534,-,-,-,-,1156,257,0
-[4] http://www.w3.org/2000/01/rdf-schema#range,1156,-,-,-,-,-,0,0
-[5] http://www.w3.org/2000/01/rdf-schema#subClassOf,257,-,-,-,-,-,-,0
-[6] http://www.w3.org/2002/07/owl#versionInfo,1,-,-,-,-,-,-,-

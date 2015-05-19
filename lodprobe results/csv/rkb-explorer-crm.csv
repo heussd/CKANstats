@@ -1,7 +1,0 @@
-Number of unique subjects: 342,Count,[0],[1],[2],[3],[4],[5]
-[0] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,342,-,219,260,260,81,122
-[1] http://www.w3.org/2000/01/rdf-schema#comment,219,-,-,137,137,81,62
-[2] http://www.w3.org/2000/01/rdf-schema#domain,260,-,-,-,260,0,122
-[3] http://www.w3.org/2000/01/rdf-schema#range,260,-,-,-,-,0,122
-[4] http://www.w3.org/2000/01/rdf-schema#subClassOf,94,-,-,-,-,-,0
-[5] http://www.w3.org/2000/01/rdf-schema#subPropertyOf,130,-,-,-,-,-,-

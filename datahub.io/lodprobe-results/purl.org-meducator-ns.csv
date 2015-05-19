@@ -1,0 +1,17 @@
+Number of unique subjects: 51,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14]
+[0] http://purl.org/dc/elements/1.1/contributor,1,-,1,1,1,0,0,0,0,0,1,0,0,0,0,0
+[1] http://purl.org/dc/elements/1.1/description,1,-,-,1,1,0,0,0,0,0,1,0,0,0,0,0
+[2] http://purl.org/dc/terms/modified,1,-,-,-,1,0,0,0,0,0,1,0,0,0,0,0
+[3] http://purl.org/dc/terms/title,1,-,-,-,-,0,0,0,0,0,1,0,0,0,0,0
+[4] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,50,-,-,-,-,-,47,1,36,50,50,38,3,11,50,15
+[5] http://www.w3.org/2000/01/rdf-schema#comment,47,-,-,-,-,-,-,0,33,47,47,35,3,9,47,14
+[6] http://www.w3.org/2000/01/rdf-schema#commment,1,-,-,-,-,-,-,-,1,1,1,1,0,0,1,1
+[7] http://www.w3.org/2000/01/rdf-schema#domain,38,-,-,-,-,-,-,-,-,36,36,36,0,9,36,5
+[8] http://www.w3.org/2000/01/rdf-schema#isDefinedBy,50,-,-,-,-,-,-,-,-,-,50,38,3,11,50,15
+[9] http://www.w3.org/2000/01/rdf-schema#label,51,-,-,-,-,-,-,-,-,-,-,38,3,11,50,15
+[10] http://www.w3.org/2000/01/rdf-schema#range,40,-,-,-,-,-,-,-,-,-,-,-,0,10,38,6
+[11] http://www.w3.org/2000/01/rdf-schema#subClassOf,3,-,-,-,-,-,-,-,-,-,-,-,-,0,3,2
+[12] http://www.w3.org/2000/01/rdf-schema#subPropertyOf,13,-,-,-,-,-,-,-,-,-,-,-,-,-,11,1
+[13] http://www.w3.org/2003/06/sw-vocab-status/ns#term_status,50,-,-,-,-,-,-,-,-,-,-,-,-,-,-,15
+[14] http://www.w3.org/2004/02/skos/core#note,15,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+

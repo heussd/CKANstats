@@ -1,0 +1,8 @@
+Number of unique subjects: 9,Count,[0],[1],[2],[3],[4],[5],[6]
+[0] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,10,-,4,4,2,1,2,2
+[1] http://www.w3.org/2000/01/rdf-schema#domain,4,-,-,4,0,0,0,0
+[2] http://www.w3.org/2000/01/rdf-schema#range,4,-,-,-,0,0,0,0
+[3] http://www.w3.org/2000/01/rdf-schema#subClassOf,4,-,-,-,-,0,0,0
+[4] http://www.w3.org/2002/07/owl#imports,3,-,-,-,-,-,0,0
+[5] http://www.w3.org/2002/07/owl#maxCardinality,2,-,-,-,-,-,-,2
+[6] http://www.w3.org/2002/07/owl#onProperty,2,-,-,-,-,-,-,-
