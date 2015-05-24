@@ -1,0 +1,5 @@
+Number of unique subjects: 39781,Count,[0],[1],[2],[3]
+[0] http://lod.taxonconcept.org/ontology/txn.owl#hasExpectationOf,64077,-,7,0,0
+[1] http://lod.taxonconcept.org/ontology/txn.owl#hasLowExpectationOf,11457,-,-,0,0
+[2] http://lod.taxonconcept.org/ontology/txn.owl#isExpectedIn,64077,-,-,-,3534
+[3] http://lod.taxonconcept.org/ontology/txn.owl#isUnexpectedIn,11457,-,-,-,-

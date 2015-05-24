@@ -1,0 +1,14 @@
+Number of unique subjects: 23,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12]
+[0] http://creativecommons.org/ns#attributionName,1,-,1,0,0,0,1,1,1,0,0,0,0,0
+[1] http://creativecommons.org/ns#attributionURL,1,-,-,0,0,0,1,1,1,0,0,0,0,0
+[2] http://data.totl.net/occult/correspondsTo,7,-,-,-,0,0,0,0,0,7,0,0,0,0
+[3] http://data.totl.net/planet/ontology/ruledBy,7,-,-,-,-,0,0,0,0,0,0,7,0,0
+[4] http://data.totl.net/planet/ontology/symbol,7,-,-,-,-,-,0,0,0,0,7,0,7,7
+[5] http://purl.org/dc/terms/creator,1,-,-,-,-,-,-,1,1,0,0,0,0,0
+[6] http://purl.org/dc/terms/description,1,-,-,-,-,-,-,-,1,0,0,0,0,0
+[7] http://purl.org/dc/terms/license,1,-,-,-,-,-,-,-,-,0,0,0,0,0
+[8] http://purl.org/dc/terms/title,7,-,-,-,-,-,-,-,-,-,0,0,0,0
+[9] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,8,-,-,-,-,-,-,-,-,-,-,1,7,7
+[10] http://www.w3.org/2000/01/rdf-schema#label,8,-,-,-,-,-,-,-,-,-,-,-,0,0
+[11] http://www.w3.org/2000/01/rdf-schema#sameAs,7,-,-,-,-,-,-,-,-,-,-,-,-,7
+[12] http://xmlns.com/foaf/0.1/name,7,-,-,-,-,-,-,-,-,-,-,-,-,-

@@ -1,0 +1,11 @@
+Number of unique subjects: 1188,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9]
+[0] http://purl.org/NET/scovo#dataset,1038,-,1038,1038,952,952,0,0,0,0,0
+[1] http://purl.org/NET/scovo#dimension,4152,-,-,1038,952,952,0,0,0,0,0
+[2] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,1322,-,-,-,952,952,144,130,0,8,8
+[3] http://www.w3.org/1999/02/22-rdf-syntax-ns#value,952,-,-,-,-,952,0,0,0,0,0
+[4] http://www.w3.org/2000/01/rdf-schema#comment,952,-,-,-,-,-,0,0,0,0,0
+[5] http://www.w3.org/2000/01/rdf-schema#label,147,-,-,-,-,-,-,130,3,8,8
+[6] http://www.w3.org/2000/01/rdf-schema#seeAlso,130,-,-,-,-,-,-,-,0,0,0
+[7] http://www.w3.org/2000/01/rdf-schema#subClassOf,4,-,-,-,-,-,-,-,-,0,0
+[8] http://www.w3.org/2006/time#hasBeginning,8,-,-,-,-,-,-,-,-,-,8
+[9] http://www.w3.org/2006/time#hasEnd,8,-,-,-,-,-,-,-,-,-,-

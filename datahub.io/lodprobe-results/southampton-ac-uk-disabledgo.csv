@@ -1,0 +1,23 @@
+Number of unique subjects: 96,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20],[21]
+[0] http://id.southampton.ac.uk/ns/disabledGoPage,87,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[1] http://id.southampton.ac.uk/ns/processIncludedFile,6,-,-,0,0,0,0,0,0,1,1,1,0,0,1,0,1,1,1,1,0,1,1
+[2] http://purl.org/dc/terms/conformsTo,2,-,-,-,2,2,2,2,2,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[3] http://purl.org/dc/terms/description,2,-,-,-,-,2,2,2,2,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[4] http://purl.org/dc/terms/isPartOf,2,-,-,-,-,-,2,2,2,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[5] http://purl.org/dc/terms/license,2,-,-,-,-,-,-,2,2,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[6] http://purl.org/dc/terms/publisher,2,-,-,-,-,-,-,-,2,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[7] http://purl.org/dc/terms/title,2,-,-,-,-,-,-,-,-,0,0,0,2,0,2,0,0,0,0,0,2,0,0
+[8] http://purl.org/void/provenance/ns/processType,2,-,-,-,-,-,-,-,-,-,2,2,0,0,2,0,2,2,2,2,0,2,2
+[9] http://purl.org/void/provenance/ns/resultingDataset,2,-,-,-,-,-,-,-,-,-,-,2,0,0,2,0,2,2,2,2,0,2,2
+[10] http://purl.org/void/provenance/ns/sourceDataset,2,-,-,-,-,-,-,-,-,-,-,-,0,0,2,0,2,2,2,2,0,2,2
+[11] http://rdfs.org/ns/void#sparqlEndpoint,2,-,-,-,-,-,-,-,-,-,-,-,-,0,2,0,0,0,0,0,2,0,0
+[12] http://rdfs.org/ns/void#triples,1,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,0,0,0,0
+[13] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,15,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,2,2,2,2,2,2,2
+[14] http://www.w3.org/2000/01/rdf-schema#label,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,0,0
+[15] http://www.w3.org/2006/time#hasBeginning,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2,2,2,0,2,2
+[16] http://www.w3.org/2006/time#hasEnd,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2,2,0,2,2
+[17] http://www.w3.org/ns/prov#endedAtTime,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2,0,2,2
+[18] http://www.w3.org/ns/prov#generated,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,2,2
+[19] http://www.w3.org/ns/prov#hadPrimarySource,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0
+[20] http://www.w3.org/ns/prov#startedAtTime,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2
+[21] http://www.w3.org/ns/prov#used,8,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

@@ -1,0 +1,22 @@
+Number of unique subjects: 8,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20]
+[0] http://purl.org/dc/terms/created,1,-,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,0
+[1] http://purl.org/dc/terms/creator,1,-,-,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+[2] http://purl.org/dc/terms/description,1,-,-,-,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,0
+[3] http://purl.org/dc/terms/issued,1,-,-,-,-,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,0
+[4] http://purl.org/dc/terms/license,4,-,-,-,-,-,4,1,1,1,4,2,3,3,3,1,4,3,4,1,1,0
+[5] http://purl.org/dc/terms/modified,4,-,-,-,-,-,-,1,1,1,4,2,3,3,3,1,4,3,4,1,1,0
+[6] http://purl.org/dc/terms/publisher,1,-,-,-,-,-,-,-,1,1,1,0,0,0,0,1,1,0,1,1,1,0
+[7] http://purl.org/dc/terms/source,1,-,-,-,-,-,-,-,-,1,1,0,0,0,0,1,1,0,1,1,1,0
+[8] http://purl.org/dc/terms/subject,10,-,-,-,-,-,-,-,-,-,1,0,0,0,0,1,1,0,1,1,1,0
+[9] http://purl.org/dc/terms/title,5,-,-,-,-,-,-,-,-,-,-,2,3,3,3,1,4,3,5,1,1,1
+[10] http://rdfs.org/ns/void#dataDump,2,-,-,-,-,-,-,-,-,-,-,-,2,2,2,0,2,2,2,0,0,0
+[11] http://rdfs.org/ns/void#exampleResource,8,-,-,-,-,-,-,-,-,-,-,-,-,3,3,0,3,3,3,0,0,0
+[12] http://rdfs.org/ns/void#feature,3,-,-,-,-,-,-,-,-,-,-,-,-,-,3,0,3,3,3,0,0,0
+[13] http://rdfs.org/ns/void#sparqlEndpoint,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,3,3,3,0,0,0
+[14] http://rdfs.org/ns/void#subset,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0,1,1,1,0
+[15] http://rdfs.org/ns/void#triples,4,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3,4,1,1,0
+[16] http://rdfs.org/ns/void#vocabulary,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,3,0,0,0
+[17] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1
+[18] http://xmlns.com/foaf/0.1/homepage,4,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0
+[19] http://xmlns.com/foaf/0.1/page,5,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[20] http://xmlns.com/foaf/0.1/primaryTopic,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

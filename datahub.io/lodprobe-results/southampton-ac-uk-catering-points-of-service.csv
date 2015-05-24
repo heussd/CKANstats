@@ -1,0 +1,27 @@
+Number of unique subjects: 427,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19],[20],[21],[22],[23],[24],[25]
+[0] http://data.ordnancesurvey.co.uk/ontology/spatialrelations/within,29,-,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,25,0,0,0,0,29,29,0,0
+[1] http://id.southampton.ac.uk/ns/processIncludedFile,5,-,-,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,1
+[2] http://purl.org/dc/terms/conformsTo,1,-,-,-,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[3] http://purl.org/dc/terms/created,1,-,-,-,-,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[4] http://purl.org/dc/terms/description,1,-,-,-,-,-,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[5] http://purl.org/dc/terms/isPartOf,1,-,-,-,-,-,-,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[6] http://purl.org/dc/terms/license,1,-,-,-,-,-,-,-,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[7] http://purl.org/dc/terms/publisher,1,-,-,-,-,-,-,-,-,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[8] http://purl.org/dc/terms/title,1,-,-,-,-,-,-,-,-,-,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+[9] http://purl.org/goodrelations/v1#availableAtOrFrom,168,-,-,-,-,-,-,-,-,-,-,0,0,0,168,0,0,0,0,0,0,0,0,168,168,0,0
+[10] http://purl.org/goodrelations/v1#closes,221,-,-,-,-,-,-,-,-,-,-,-,221,0,0,221,221,221,0,0,0,0,0,221,0,0,0
+[11] http://purl.org/goodrelations/v1#hasOpeningHoursDayOfWeek,221,-,-,-,-,-,-,-,-,-,-,-,-,0,0,221,221,221,0,0,0,0,0,221,0,0,0
+[12] http://purl.org/goodrelations/v1#hasOpeningHoursSpecification,221,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,25,0,0,0,0,29,29,0,0
+[13] http://purl.org/goodrelations/v1#includes,168,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,0,0,0,168,168,0,0
+[14] http://purl.org/goodrelations/v1#opens,221,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,221,221,0,0,0,0,0,221,0,0,0
+[15] http://purl.org/goodrelations/v1#validFrom,221,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,221,0,0,0,0,0,221,0,0,0
+[16] http://purl.org/goodrelations/v1#validThrough,221,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,0,221,0,0,0
+[17] http://purl.org/openorg/mapIcon,25,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,25,25,0,0
+[18] http://purl.org/void/provenance/ns/processType,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2,2,0,2,0,1,1
+[19] http://purl.org/void/provenance/ns/resultingDataset,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,2,0,2,0,1,1
+[20] http://purl.org/void/provenance/ns/sourceDataset,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,2,0,1,1
+[21] http://rdfs.org/ns/void#sparqlEndpoint,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0,0,0
+[22] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,427,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,203,1,1
+[23] http://www.w3.org/2000/01/rdf-schema#label,203,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0
+[24] http://www.w3.org/2006/time#hasBeginning,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1
+[25] http://www.w3.org/2006/time#hasEnd,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

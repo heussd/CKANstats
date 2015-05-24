@@ -1,0 +1,19 @@
+Number of unique subjects: 1947,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17]
+[0] http://id.southampton.ac.uk/ns/liveBusTimes,1944,-,1944,0,0,0,1944,0,0,0,1944,1944,1129,1944,1944,1944,0,0,1944
+[1] http://id.southampton.ac.uk/ns/mobilePage,1944,-,-,0,0,0,1944,0,0,0,1944,1944,1129,1944,1944,1944,0,0,1944
+[2] http://id.southampton.ac.uk/ns/processIncludedFile,1,-,-,-,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0
+[3] http://purl.org/dc/terms/created,1,-,-,-,-,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+[4] http://purl.org/dc/terms/isPartOf,1,-,-,-,-,-,0,0,0,0,0,0,0,0,0,0,0,0,0
+[5] http://purl.org/openorg/mapIcon,1944,-,-,-,-,-,-,0,0,0,1944,1944,1129,1944,1944,1944,0,0,1944
+[6] http://purl.org/void/provenance/ns/processType,2,-,-,-,-,-,-,-,2,1,2,0,0,0,0,0,1,1,0
+[7] http://purl.org/void/provenance/ns/resultingDataset,2,-,-,-,-,-,-,-,-,1,2,0,0,0,0,0,1,1,0
+[8] http://purl.org/void/provenance/ns/sourceDataset,1,-,-,-,-,-,-,-,-,-,1,0,0,0,0,0,0,0,0
+[9] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,3890,-,-,-,-,-,-,-,-,-,-,1944,1129,1944,1944,1944,1,1,1944
+[10] http://www.w3.org/2000/01/rdf-schema#label,1944,-,-,-,-,-,-,-,-,-,-,-,1129,1944,1944,1944,0,0,1944
+[11] http://www.w3.org/2002/07/owl#sameAs,1129,-,-,-,-,-,-,-,-,-,-,-,-,1129,1129,1129,0,0,1129
+[12] http://www.w3.org/2003/01/geo/wgs84_pos#lat,1944,-,-,-,-,-,-,-,-,-,-,-,-,-,1944,1944,0,0,1944
+[13] http://www.w3.org/2003/01/geo/wgs84_pos#long,1944,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1944,0,0,1944
+[14] http://www.w3.org/2004/02/skos/core#notation,1944,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0,0,1944
+[15] http://www.w3.org/2006/time#hasBeginning,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0
+[16] http://www.w3.org/2006/time#hasEnd,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[17] http://xmlns.com/foaf/0.1/page,3073,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

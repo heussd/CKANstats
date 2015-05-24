@@ -1,0 +1,8 @@
+Number of unique subjects: 7532,Count,[0],[1],[2],[3],[4],[5],[6]
+[0] http://data.ordnancesurvey.co.uk/ontology/geometry/asGeoJSON,3766,-,3766,0,0,3766,0,0
+[1] http://data.ordnancesurvey.co.uk/ontology/geometry/asWKT,3766,-,-,0,0,3766,0,0
+[2] http://data.ordnancesurvey.co.uk/ontology/geometry/extent,3766,-,-,-,102,0,3766,102
+[3] http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains,3664,-,-,-,-,0,102,102
+[4] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,3766,-,-,-,-,-,0,0
+[5] http://www.w3.org/2000/01/rdf-schema#label,3766,-,-,-,-,-,-,102
+[6] http://xmlns.com/foaf/0.1/primaryTopicOf,102,-,-,-,-,-,-,-

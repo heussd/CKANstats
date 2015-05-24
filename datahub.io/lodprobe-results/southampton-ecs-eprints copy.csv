@@ -1,0 +1,19 @@
+Number of unique subjects: 2,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17]
+[0] http://creativecommons.org/ns#attributionName,1,-,1,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1
+[1] http://creativecommons.org/ns#attributionURL,1,-,-,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1
+[2] http://creativecommons.org/ns#license,1,-,-,-,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1
+[3] http://eprints.org/ontology/OAIPMH2,1,-,-,-,-,1,1,1,1,0,0,0,1,1,1,1,1,1,0
+[4] http://eprints.org/ontology/hasConceptScheme,1,-,-,-,-,-,1,1,1,0,0,0,1,1,1,1,1,1,0
+[5] http://eprints.org/ontology/hasEPrint,15835,-,-,-,-,-,-,1,1,0,0,0,1,1,1,1,1,1,0
+[6] http://purl.org/dc/elements/1.1/rights,3,-,-,-,-,-,-,-,1,0,0,0,1,1,1,1,1,1,0
+[7] http://purl.org/dc/terms/description,1,-,-,-,-,-,-,-,-,0,0,0,1,1,1,1,1,1,0
+[8] http://purl.org/dc/terms/license,1,-,-,-,-,-,-,-,-,-,1,1,0,0,0,0,1,0,1
+[9] http://purl.org/dc/terms/publisher,1,-,-,-,-,-,-,-,-,-,-,1,0,0,0,0,1,0,1
+[10] http://purl.org/dc/terms/rightsHolder,1,-,-,-,-,-,-,-,-,-,-,-,0,0,0,0,1,0,1
+[11] http://purl.org/dc/terms/title,1,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,1,1,0
+[12] http://rdfs.org/ns/void#exampleResource,1,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,1,0
+[13] http://rdfs.org/ns/void#vocabulary,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,0
+[14] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1,0
+[15] http://www.w3.org/2000/01/rdf-schema#comment,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,1
+[16] http://xmlns.com/foaf/0.1/homepage,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[17] http://xmlns.com/foaf/0.1/primaryTopic,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

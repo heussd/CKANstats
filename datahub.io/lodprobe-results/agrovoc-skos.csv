@@ -1,0 +1,5 @@
+Number of unique subjects: 15005,Count,[0],[1],[2],[3]
+[0] http://www.w3.org/2004/02/skos/core#broadMatch,12,-,0,12,1
+[1] http://www.w3.org/2004/02/skos/core#closeMatch,47,-,-,34,0
+[2] http://www.w3.org/2004/02/skos/core#exactMatch,20518,-,-,-,19
+[3] http://www.w3.org/2004/02/skos/core#narrowMatch,76,-,-,-,-

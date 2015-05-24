@@ -1,0 +1,15 @@
+Number of unique subjects: 160,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13]
+[0] http://purl.org/dc/elements/1.1/contributor,24,-,1,1,1,1,1,0,0,1,0,0,0,0,0
+[1] http://purl.org/dc/elements/1.1/creator,4,-,-,1,1,1,1,0,0,1,0,0,0,0,0
+[2] http://purl.org/dc/elements/1.1/description,16,-,-,-,1,1,1,0,0,1,0,0,0,0,0
+[3] http://purl.org/dc/elements/1.1/title,16,-,-,-,-,1,1,0,0,1,0,0,0,0,0
+[4] http://purl.org/dc/terms/available,1,-,-,-,-,-,1,0,0,1,0,0,0,0,0
+[5] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,160,-,-,-,-,-,-,156,95,1,86,159,15,138,159
+[6] http://www.w3.org/2004/02/skos/core#broader,156,-,-,-,-,-,-,-,95,0,86,156,12,135,156
+[7] http://www.w3.org/2004/02/skos/core#definition,419,-,-,-,-,-,-,-,-,0,62,95,2,95,95
+[8] http://www.w3.org/2004/02/skos/core#hasTopConcept,3,-,-,-,-,-,-,-,-,-,0,0,0,0,0
+[9] http://www.w3.org/2004/02/skos/core#historyNote,86,-,-,-,-,-,-,-,-,-,-,86,8,86,86
+[10] http://www.w3.org/2004/02/skos/core#inScheme,159,-,-,-,-,-,-,-,-,-,-,-,15,138,159
+[11] http://www.w3.org/2004/02/skos/core#narrower,156,-,-,-,-,-,-,-,-,-,-,-,-,15,15
+[12] http://www.w3.org/2004/02/skos/core#notation,138,-,-,-,-,-,-,-,-,-,-,-,-,-,138
+[13] http://www.w3.org/2004/02/skos/core#prefLabel,2229,-,-,-,-,-,-,-,-,-,-,-,-,-,-

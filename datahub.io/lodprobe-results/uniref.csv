@@ -1,0 +1,17 @@
+Number of unique subjects: 4,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15]
+[0] http://purl.uniprot.org/core/commonTaxon,1,-,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0
+[1] http://purl.uniprot.org/core/identity,1,-,-,0,1,0,0,1,0,0,0,0,0,1,0,1,0
+[2] http://purl.uniprot.org/core/length,1,-,-,-,0,1,0,0,0,0,0,0,1,1,1,1,0
+[3] http://purl.uniprot.org/core/member,1,-,-,-,-,0,0,1,0,0,0,0,0,1,0,1,0
+[4] http://purl.uniprot.org/core/memberOf,2,-,-,-,-,-,0,0,0,0,0,0,1,1,1,1,0
+[5] http://purl.uniprot.org/core/mnemonic,1,-,-,-,-,-,-,0,1,1,1,1,0,0,0,1,0
+[6] http://purl.uniprot.org/core/modified,1,-,-,-,-,-,-,-,0,0,0,0,0,1,0,1,0
+[7] http://purl.uniprot.org/core/organism,1,-,-,-,-,-,-,-,-,1,1,1,0,0,0,1,0
+[8] http://purl.uniprot.org/core/representativeFor,1,-,-,-,-,-,-,-,-,-,1,1,0,0,0,1,0
+[9] http://purl.uniprot.org/core/reviewed,1,-,-,-,-,-,-,-,-,-,-,1,0,0,0,1,0
+[10] http://purl.uniprot.org/core/seedFor,1,-,-,-,-,-,-,-,-,-,-,-,0,0,0,1,0
+[11] http://purl.uniprot.org/core/sequenceFor,1,-,-,-,-,-,-,-,-,-,-,-,-,1,1,1,0
+[12] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,3,-,-,-,-,-,-,-,-,-,-,-,-,-,1,2,1
+[13] http://www.w3.org/1999/02/22-rdf-syntax-ns#value,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,1,0
+[14] http://www.w3.org/2000/01/rdf-schema#label,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+[15] http://www.w3.org/2002/07/owl#imports,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-

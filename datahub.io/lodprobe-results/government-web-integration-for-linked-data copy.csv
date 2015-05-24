@@ -1,0 +1,8 @@
+Number of unique subjects: 96,Count,[0],[1],[2],[3],[4],[5],[6]
+[0] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,99,-,53,79,79,2,1,1
+[1] http://www.w3.org/2000/01/rdf-schema#comment,53,-,-,43,43,2,1,0
+[2] http://www.w3.org/2000/01/rdf-schema#domain,108,-,-,-,78,0,1,0
+[3] http://www.w3.org/2000/01/rdf-schema#range,81,-,-,-,-,0,1,0
+[4] http://www.w3.org/2002/07/owl#disjointWith,3,-,-,-,-,-,0,0
+[5] http://www.w3.org/2002/07/owl#inverseOf,1,-,-,-,-,-,-,0
+[6] http://www.w3.org/2002/07/owl#versionIRI,1,-,-,-,-,-,-,-

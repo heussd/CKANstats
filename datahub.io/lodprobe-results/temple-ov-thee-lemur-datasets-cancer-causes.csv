@@ -1,0 +1,7 @@
+Number of unique subjects: 1214,Count,[0],[1],[2],[3],[4],[5]
+[0] http://data.totl.net/causation/causes,208,-,62,0,0,0,0
+[1] http://data.totl.net/causation/prevents,179,-,-,0,0,0,0
+[2] http://purl.org/dc/terms/title,888,-,-,-,888,0,888
+[3] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,888,-,-,-,-,0,888
+[4] http://xmlns.com/foaf/0.1/primaryTopic,1,-,-,-,-,-,0
+[5] http://xmlns.com/foaf/0.1/topic,2223,-,-,-,-,-,-

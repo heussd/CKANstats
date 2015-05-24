@@ -1,0 +1,12 @@
+Number of unique subjects: 1,Count,[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10]
+[0] http://purl.org/dc/terms/subject,3,-,1,1,1,1,1,1,1,1,1,1
+[1] http://rdfs.org/ns/void#exampleResource,2,-,-,1,1,1,1,1,1,1,1,1
+[2] http://rdfs.org/ns/void#uriRegexPattern,1,-,-,-,1,1,1,1,1,1,1,1
+[3] http://usefulinc.com/ns/doap#developer,1,-,-,-,-,1,1,1,1,1,1,1
+[4] http://usefulinc.com/ns/doap#homepage,1,-,-,-,-,-,1,1,1,1,1,1
+[5] http://usefulinc.com/ns/doap#license,1,-,-,-,-,-,-,1,1,1,1,1
+[6] http://usefulinc.com/ns/doap#name,1,-,-,-,-,-,-,-,1,1,1,1
+[7] http://usefulinc.com/ns/doap#programming-language,1,-,-,-,-,-,-,-,-,1,1,1
+[8] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,2,-,-,-,-,-,-,-,-,-,1,1
+[9] http://www.w3.org/2000/01/rdf-schema#seeAlso,1,-,-,-,-,-,-,-,-,-,-,1
+[10] http://www.web-semantics.org/ns/pm#subProject,1,-,-,-,-,-,-,-,-,-,-,-

@@ -1,0 +1,8 @@
+Number of unique subjects: 34378,Count,[0],[1],[2],[3],[4],[5],[6]
+[0] http://publishmydata.com/def/statistics#ageRange,34378,-,34378,34378,34378,34378,34378,34378
+[1] http://publishmydata.com/def/statistics#population,34378,-,-,34378,34378,34378,34378,34378
+[2] http://purl.org/linked-data/cube#dataSet,34378,-,-,-,34378,34378,34378,34378
+[3] http://purl.org/linked-data/sdmx/2009/dimension#refArea,34378,-,-,-,-,34378,34378,34378
+[4] http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,34378,-,-,-,-,-,34378,34378
+[5] http://www.w3.org/1999/02/22-rdf-syntax-ns#type,34378,-,-,-,-,-,-,34378
+[6] http://www.w3.org/2000/01/rdf-schema#label,34378,-,-,-,-,-,-,-
