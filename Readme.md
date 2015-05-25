@@ -372,6 +372,15 @@ GTFS|0.00|0.00
 ![](datahub.io/visitsperformat.png)
 
 
+
+### Licences
+
+	select trim(dataset_license_title), count(dataset_license_title) from datahubio2
+	group by dataset_license_title order by count(dataset_license_title) desc
+	
+![](datahub.io/licenses.png)
+	
+
 ## Per-Resource Evaluations
 
 ### Top 50 Linked Data resources
