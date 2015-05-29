@@ -188,13 +188,13 @@ The final view then selects any null-valued format:
 	drop view datahubio2;;
 	create view datahubio2 as
 	select dataset_id, dataset_name, dataset_license_title, dataset_license_id, 
-       dataset_is_open, dataset_tracking_summary_total, dataset_tracking_summary_recent, 
-       resource_id, resource_name, resource_created, resource_revision_timestamp, 
-       resource_format, resource_url, resource_tracking_summary_total, 
-       resource_tracking_summary_recent, trim(coalesce(b.format, a.format, 'n/a')) as unified_format from datahubio
+	   dataset_is_open, dataset_tracking_summary_total, dataset_tracking_summary_recent, 
+	   resource_id, resource_name, resource_created, resource_revision_timestamp, 
+	   resource_format, resource_url, resource_tracking_summary_total, 
+	   resource_tracking_summary_recent, trim(coalesce(b.format, a.format, 'n/a')) as unified_format, trim(coalesce(b.star, a.star, 'n/a')) as star from datahubio
 	left outer join mptbl as a on lower(trim(resource_format)) like lower(a.expr)
 	-- desperate mode: try to map unknown formats via possible resource_url-extensions
-	left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)
+	left outer join mptbl as b on (a.format = 'n/a' and lower(substring(trim(resource_url) from '...$')) like b.expr)	
 
 
 ## Insights in unified data
@@ -208,7 +208,7 @@ The final view then selects any null-valued format:
 unified_format|count|%
 ----|----|----
 n/a|2983|14.78%
-Spreadsheet|2966|14.70%
+Spreadsheet|2983|14.78%
 CSV|2533|12.55%
 RDF|2279|11.29%
 PDF|1643|8.14%
@@ -219,7 +219,7 @@ SPARQL|682|3.38%
 URL|627|3.11%
 Archive|534|2.65%
 Geo|511|2.53%
-Database|493|2.44%
+Database|481|2.38%
 XML|463|2.29%
 JSON|364|1.80%
 Binary|137|0.68%
@@ -229,11 +229,9 @@ API|63|0.31%
 Beacon|59|0.29%
 MARC|51|0.25%
 RSS|47|0.23%
+Script|44|0.22%
 Repository|28|0.14%
 Map|25|0.12%
-Script|20|0.10%
-Google Doc|17|0.08%
-SQL|12|0.06%
 GTFS|3|0.01%
 Sound|2|0.01%
 
