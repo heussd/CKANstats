@@ -255,7 +255,6 @@ GTFS|3|0|100.00
 Beacon|58|1|98.31
 Image|1227|144|89.50
 URL|535|92|85.33
-SQL|10|2|83.33
 RDF|1725|554|75.69
 RSS|34|13|72.34
 JSON|259|105|71.15
@@ -270,14 +269,30 @@ CSV|1490|1043|58.82
 Repository|16|12|57.14
 Archive|292|242|54.68
 Example|541|538|50.14
+Script|22|22|50.00
 DOC|34|35|49.28
 TXT|57|75|43.18
 HTML|398|587|40.41
-Script|8|12|40.00
-Google Doc|6|11|35.29
-Spreadsheet|634|2332|21.38
+Spreadsheet|640|2343|21.45
 PDF|224|1419|13.63
-Database|47|446|9.53
+Database|43|438|8.94
+
+
+### Data Classified in TBL's 5-Star Maturity Model
+
+	select star, count(star) as count, count(star)::double precision / (select count(star) from datahubio2)::double precision from datahubio2
+	where dataset_is_open = true
+	group by star order by count(star) desc
+
+5-star maturity level|count|percent
+----|----|----|
+1|3860|36,37%
+2|1476|13,91%
+3|2105|19,84%
+4 (+)|472|4,45%
+n/a|2699|25,43%
+
+
 
 ### Created vs. Timestamp, Ages in days
 	select resource_id, round(EXTRACT('epoch' FROM created)/86400) created, round(EXTRACT('epoch' from a.updated)/86400) as updated from (
