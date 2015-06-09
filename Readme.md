@@ -280,17 +280,18 @@ Database|43|438|8.94
 
 ### Data Classified in TBL's 5-Star Maturity Model
 
-	select star, count(star) as count, count(star)::double precision / (select count(star) from datahubio2)::double precision from datahubio2
-	where dataset_is_open = true
-	group by star order by count(star) desc
+	select star, count(star) as count, count(star)::double precision / (select count(star)
+	from datahubio2 where dataset_is_open = true)::double precision from datahubio2 where dataset_is_open = true
+	group by star order by star
 
-5-star maturity level|count|percent
+5-star rating|count|percent
 ----|----|----|
-1|3860|36,37%
-2|1476|13,91%
-3|2105|19,84%
-4 (+)|472|4,45%
-n/a|2699|25,43%
+1|2702|25,46%
+2|658|6,20%
+3|2506|23,61%
+4|2197|20,70%
+n/a|2549|24,02%
+
 
 
 
